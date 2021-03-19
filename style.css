@@ -30,7 +30,7 @@ nav {
 }
 .nav-logo span::after {
   content: "";
-  background: #3e64ff;
+  background: red;
   width: 50px;
   position: absolute;
   top: 0;
@@ -167,7 +167,7 @@ nav {
 .skill-bars .bar .progress-line {
   height: 10px;
   width: 100%;
-  background: #f0f0f0;
+  background: red;
   position: relative;
   transform: scaleX(0);
   transform-origin: left;
@@ -430,11 +430,12 @@ nav {
 .flag {
   position: relative;
   display: inline;
-  background: rgb(255, 255, 255);
+  background: red;
   font-weight: 600;
   z-index: 15;
   padding: 6px 10px;
   text-align: left;
+  color: white;
   border-radius: 5px;
 }
 
